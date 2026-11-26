@@ -73,3 +73,9 @@ footer{display:flex;justify-content:center;align-items:center;gap:13px;flex-wrap
 .admin-mode .hero-subtitle { max-width:720px; }
 .admin-warning { margin: 18px auto 24px; padding: 13px 16px; border:1px solid #765f2e; border-radius:9px; background:#f6c76812; color:#e7d4a8; font-size:12px; }
 .admin-warning i { color:#f6c768; margin-right:8px; }
+
+/* Botón para reemplazar individualmente un personaje del randomizer */
+.btn-change-hero{display:flex;align-items:center;justify-content:center;gap:5px;width:100%;margin-top:9px;padding:7px 5px;border:1px solid #4b6b91;border-radius:6px;background:#111d31;color:#a9eefa;font-size:clamp(8px,.78vw,10px);font-weight:700;line-height:1.2;transition:background .2s,border-color .2s,color .2s}
+.btn-change-hero:hover{background:#123247;border-color:var(--cyan);color:#fff;box-shadow:0 0 12px #51e5ff22}
+.team-b .btn-change-hero{color:#ffc0d7;border-color:#75405e}
+.team-b .btn-change-hero:hover{background:#35182b;border-color:var(--pink);color:#fff}
